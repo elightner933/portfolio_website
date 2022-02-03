@@ -65,7 +65,7 @@ main {
 	row-gap: 5px;
 }
 
-.goals h2, .history h2, .projects h2, .projects h3 {
+.goals h2, .history h2, .history h3, .projects h2, .projects h3 {
 	text-align: center;
 }
 
