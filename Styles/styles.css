@@ -1,0 +1,40 @@
+/* Universal Styles */
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: black;
+	color: white;
+}
+
+/* Header Styles */
+.logo {
+	margin-left: 20px;
+}
+
+head {
+	position: fixed;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	margin-left: auto;
+}
+
+a {
+	font-size: 1.2em;
+	text-decoration: none;
+	padding: 10px;
+	margin-right: 5px;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: lightgray;
+}
