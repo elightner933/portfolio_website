@@ -3,38 +3,106 @@ body {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	background-color: black;
 	color: white;
+	text-align: center;
 }
 
 /* Header Styles */
 .logo {
+	font-size: 1.8em;
 	margin-left: 20px;
 }
 
-head {
+header {
+	display: flex;
 	position: fixed;
+	width: 98.8%;
+	margin: 0 auto;
+	top: 0;
+	background-color: black;
 }
 
 nav {
 	display: flex;
 	align-items: center;
+	width: 100%;
 }
 
-ul {
+header ul {
 	display: flex;
 	align-items: center;
 	list-style-type: none;
 	margin-left: auto;
 }
 
-a {
+header a {
 	font-size: 1.2em;
 	text-decoration: none;
 	padding: 10px;
-	margin-right: 5px;
 	color: white;
 }
 
-a:hover {
+header a:hover {
 	text-decoration: underline;
 	color: lightgray;
+}
+
+/* INDEX.HTML */
+
+/* Content Styles */
+main {
+	margin-top: 75px;
+}
+
+.content-container {
+	display: grid;
+	grid: repeat(2, auto) / repeat(2, auto);
+	column-gap: 5px;
+	row-gap: 5px;
+}
+
+.goals h2, .history h2, .projects h2, .projects h3 {
+	text-align: center;
+}
+
+.goals p, .history p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.goals, .projects {
+	background-color: #d8ecf3;
+	color: #4D4D4D;
+}
+
+.goals, .history, .projects {
+	text-align: justify;
+	border-radius: 20px;
+}
+
+.goals {
+	grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.history {
+	grid-area: 1 / 1 / span 2 / span 1;
+	background-color: #B7DCE8;
+	color: #4D4D4D;
+}
+
+.projects {
+	grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.projects ul {
+	list-style-type: none;
+}
+
+.projects a {
+	text-decoration: none;
+	color: #707070;
+}
+
+.projects a:hover {
+	text-decoration: underline;
+	color: blue;
 }
