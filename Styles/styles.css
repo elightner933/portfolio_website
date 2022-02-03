@@ -46,6 +46,11 @@ header a:hover {
 	color: lightgray;
 }
 
+/* Footer Styles */
+footer {
+	text-align: left;
+}
+
 /* INDEX.HTML */
 
 /* Content Styles */
@@ -74,7 +79,7 @@ main {
 	color: #4D4D4D;
 }
 
-.goals, .history, .projects {
+.goals, .history, .projects, .portrait {
 	text-align: justify;
 	border-radius: 20px;
 }
